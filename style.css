@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.2s ease-in-out;
+}
+/* header*/
+body{
+    background-color: #000508;
+    color: #cccccc;
+    background-image: url('img/landing\ page\ background.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header{
+    background-color: #000000;
+    position: fixed;
+    width: 100%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.topo div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #cccccc;
+    height: 10vh;
+   
+}
+.logo{
+    font-size: 3em;
+    margin-left: 2em;
+}
+.logo:hover{
+    color: #fff;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 2rem;
+    gap: 1.5em;
+}
+.navbar a{
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 1.1em;
+}
+.navbar a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+
+/*landing page*/
+section{
+    margin-top: 12em;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    scroll-margin-top: 12vh;
+}
+.corpo{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+   
+    
+}
+.chama{
+    font-size: 7em;
+    
+}
+.small-highlight{
+    margin: 4em;
+    margin-top: 1em;
+    font-size: 1.3em;
+    width: 70%;
+    align-self: justify;
+}
+.small-highlight strong{
+    font-size: 1.4em;
+}
+.botao-chama{
+    font-size: 2em;
+    color: #cccccc;
+    background-color: #123552;
+    border: 2px solid #404040 ;
+    border-radius: 20px;
+    text-decoration:none;
+    padding: 0.4em;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.botao-chama:hover{
+    background-color: #264763;
+}
+.verif{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    max-height: 50vh;
+    width: 100%;
+   }
+   
+.resto{
+    margin-top: 5em;
+   background-image: url('img/about_café.jpg');
+   background-size: cover;
+   height: 90vh;
+   
+}
+.title-sections{
+    font-size: 7em;
+}
+.texto{
+    font-size: 1.5em;
+    line-height: 1.5em;
+    padding: 0px 1em;
+    width: 30em;
+    align-self: flex-start;
+    margin-top: 3em;
+    text-align:center;
+    margin-left: 2em;
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, min-content);
+    justify-content: center;
+    gap: 1em;
+    margin-top: 5em;
+    background-size: cover;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 18em;
+    width: 18em;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    background-color: rgb(33, 33, 33, 0.4) ;
+}
+.card:hover{
+    margin-top: -5px;
+    box-shadow: 1px 2px 12px 0px rgba(39,190,255,1);
+-webkit-box-shadow: 1px 2px 12px 0px rgba(39,190,255,1);
+-moz-box-shadow: 1px 2px 12px 0px rgba(39,190,255,1);
+background-color: rgb(1, 1, 1, 0.5);
+cursor: pointer;
+}
+
+.card img{
+    background: #e8e8e8;
+    border-radius: 50%;
+    margin-top: 2em;
+}
+.botao-chama-sutil{
+    font-size: 1em;
+    color: #cccccc;
+    background-color: #123552;
+    border: 2px solid #404040 ;
+    border-radius: 20px;
+    text-decoration:none;
+    padding: 0.3em;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.botao-chama-sutil:hover{
+    background-color: #264763;
+}
+span{
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+#chama-alter{
+    font-size: 1em;
+    color: #cccccc;
+    background-color: #123552;
+    border: 2px solid #404040 ;
+    border-radius: 20px;
+    text-decoration:none;
+    padding: 0.5em;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2em;
+    align-self: center;
+
+}
+#chama-alter:hover{
+    background-color: #264763;
+
+}
+#verified{
+    background-image: url('img/alter_café.jpg');
+    background-size: cover;
+    margin-top: 1em;
+    height: 90vh;
+}
+#customer{
+    background-image: url('img/verified.jpeg');
+    background-size: cover;
+    margin-top: 1em;
+    min-height: 90vh;
+}
+.coment{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    height: 10em;
+    width: 20em;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    background-color: rgb(33, 33, 33, 0.4) ;
+    margin: 3em;
+    margin-bottom: 10px;
+    padding: 1em;
+    cursor: pointer;
+}
+.coment:hover{
+    margin-top: 46px;
+    box-shadow: 1px 2px 12px 0px rgba(39,190,255,1);
+-webkit-box-shadow: 1px 2px 12px 0px rgba(39,190,255,1);
+-moz-box-shadow: 1px 2px 12px 0px rgba(39,190,255,1);
+background-color: rgb(1, 1, 1, 0.5)
+}
+.coment h3{
+    margin-bottom: 1em;
+}
+.footer{
+    width: 100%;
+
+}
+.final{
+    font-size: 2em;
+}
+.footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 2em;
+}
+.footer a{
+    text-decoration: none;
+    color: #cccccc;
+}
+.footer a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+#contact{
+
+    background-color: #123552;
+    background-size: cover;
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 4em;
+}
