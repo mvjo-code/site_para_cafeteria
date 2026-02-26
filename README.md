@@ -5,7 +5,7 @@
 ## <img src="https://icongr.am/feather/info.svg?size=30&color=bd93f9" align="center" alt="sobre" /> Sobre o Projeto
 Este projeto foi desenvolvido com o objetivo de praticar conceitos aprendidos de HTML5 E CSS3 com foco no minimalismo e identidade visual das páginas.  A meta era criar uma interface que mantivesse a identidade visual elegante em todas as seções.
 
-## <img src="https://icongr.am/feather/tool.svg?size=30&color=bd93f9" align="center" alt="ferramentas" /> Tecnologias Utilizadas
+## <img src="https://icongr.am/feather/cpu.svg?size=26&color=bd93f9" align="center" alt="icon" /> Tecnologias Utilizadas
 * **HTML5:** Estruturação semântica do conteúdo.
 * **CSS3:** Estilização avançada, uso de variáveis e animações sutis.
 * **Flexbox & Grid:** Para o layout e alinhamento dos elementos.
