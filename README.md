@@ -2,7 +2,7 @@
 
 > **Resumo:** Uma landing page moderna desenvolvida para uma cafeteria fictícia, com foco design atrativo e minimalista.
 
-## <img src="https://icongr.am/feather/info.svg?size=30&color=bd93f9" align="center" alt="sobre" /> Sobre o Projeto Sobre o Projeto
+## <img src="https://icongr.am/feather/info.svg?size=30&color=bd93f9" align="center" alt="sobre" /> Sobre o Projeto
 Este projeto foi desenvolvido com o objetivo de praticar conceitos aprendidos de HTML5 E CSS3 com foco no minimalismo e identidade visual das páginas.  A meta era criar uma interface que mantivesse a identidade visual elegante em todas as seções.
 
 ## <img src="https://icongr.am/feather/tool.svg?size=30&color=bd93f9" align="center" alt="ferramentas" /> Tecnologias Utilizadas
