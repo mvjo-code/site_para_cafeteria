@@ -1,4 +1,4 @@
-# <img src="https://icongr.am/feather/coffee.svg?size=30&color=bd93f9" align="center" alt="café" /> Love Coffee Love Coffee - Interface para uma cafeteria
+# <img src="https://icongr.am/feather/coffee.svg?size=30&color=bd93f9" align="center" alt="café" /> Love Coffee - Interface para uma cafeteria
 
 > **Resumo:** Uma landing page moderna desenvolvida para uma cafeteria fictícia, com foco design atrativo e minimalista.
 
